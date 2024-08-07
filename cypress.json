@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 {
     "integrationFolder": "cypress/e2e"
+=======
+{
+    "integrationFolder": "cypress/e2e"
+>>>>>>> 594d0775625365a21e44cfc0ba6053c4d98bcead
   }

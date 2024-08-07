@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .auto-scaling-text {
     display: inline-block;
     padding: 0 30px;
     position: absolute;
     right: 0;
     transform-origin: right;
+=======
+.auto-scaling-text {
+    display: inline-block;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    transform-origin: right;
+>>>>>>> 594d0775625365a21e44cfc0ba6053c4d98bcead
   }

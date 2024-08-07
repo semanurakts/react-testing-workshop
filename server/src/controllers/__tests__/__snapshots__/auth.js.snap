@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`password required to login 1`] = `
@@ -38,4 +39,46 @@ Object {
     "username": "can't be blank",
   },
 }
+=======
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`password required to login 1`] = `
+Object {
+  "errors": Object {
+    "password": "can't be blank",
+  },
+}
+`;
+
+exports[`password required to register 1`] = `
+Object {
+  "errors": Object {
+    "password": "can't be blank",
+  },
+}
+`;
+
+exports[`username must be unique 1`] = `
+Object {
+  "errors": Object {
+    "username": "taken",
+  },
+}
+`;
+
+exports[`username required to login 1`] = `
+Object {
+  "errors": Object {
+    "username": "can't be blank",
+  },
+}
+`;
+
+exports[`username required to register 1`] = `
+Object {
+  "errors": Object {
+    "username": "can't be blank",
+  },
+}
+>>>>>>> 594d0775625365a21e44cfc0ba6053c4d98bcead
 `;

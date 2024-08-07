@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 {
     "baseUrl": "http://localhost:8080",
     "integrationFolder": "cypress/e2e"
+=======
+{
+    "baseUrl": "http://localhost:8080",
+    "integrationFolder": "cypress/e2e"
+>>>>>>> 594d0775625365a21e44cfc0ba6053c4d98bcead
   }

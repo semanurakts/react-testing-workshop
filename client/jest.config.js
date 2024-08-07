@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ./client/jest.config.js
 module.exports = {
     displayName: 'client',
@@ -13,4 +14,21 @@ module.exports = {
       '\\.svg$': '<rootDir>/test/svg-file-mock.js',
     },
     snapshotSerializers: ['jest-glamor-react'],
+=======
+// ./client/jest.config.js
+module.exports = {
+    displayName: 'client',
+    testEnvironmentOptions: {
+      url: 'https://til.test.com',
+    },
+    testPathIgnorePatterns: ['/node_modules/', '/helpers/'],
+    setupTestFrameworkScriptFile: require.resolve(
+      './test/setup-test-framework.js',
+    ),
+    modulePaths: ['<rootDir>/src', '<rootDir>/test'],
+    moduleNameMapper: {
+      '\\.svg$': '<rootDir>/test/svg-file-mock.js',
+    },
+    snapshotSerializers: ['jest-glamor-react'],
+>>>>>>> 594d0775625365a21e44cfc0ba6053c4d98bcead
   }
